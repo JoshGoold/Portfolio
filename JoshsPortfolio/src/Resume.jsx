@@ -12,7 +12,7 @@ const Resume = () => {
         </div>
     <div className='flex gap-5 items-center justify-center mt-80'>
       <h1>View Resume: </h1>
-      <a className='bg-green-800 rounded px-1' href="https://drive.google.com/file/d/1_xA42GHOUcN0UlPZwNEUNuxHGnuVvwTc/view?usp=drive_link">View here</a>
+      <a className='bg-green-800 rounded px-1' href="https://drive.google.com/file/d/1_xA42GHOUcN0UlPZwNEUNuxHGnuVvwTc/view">View here</a>
     </div>
 
     </div>
