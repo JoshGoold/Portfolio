@@ -3,11 +3,11 @@ import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
-import project5 from "./assets/project5.png";
+import project5 from "./assets/bash.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer I love making scalable and helpful applications and thrive in situations when a problem needs solving. My strengths lie in JavaScript, Java, and Python. However I have recently developed a love for Bash scripting and C. Im hardworking and passionate about the work I do which makes me reliable and dependable. I look forward to joining a team to help build helpful and reliable applications for the world!`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a 21 year old man, outside of coding I love working out, playing basketball, and I love playing chess, in my opinion it is one of the most beautiful creations of humanity. Programming is my main hobby, Ive developed a real passion and love for it. I believe that in programming the sky's the limit on what you can accomplish, I absolutely love the fact that I can build anything I can think of it makes the journey all the more exciting. At this point I have 0 professional expreience but I absolutely cannot wait to see where the road takes me! `;
 
 export const EXPERIENCES = [
   {
@@ -27,6 +27,7 @@ export const EXPERIENCES = [
   
 ];
 
+
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
@@ -37,10 +38,11 @@ export const PROJECTS = [
   },
   {
     title: "File Organizer",
-    image: project2,
+    image: project5,
     description:
       "An application that takes in source directory and destination directory and sorts all files in source directory based off extension",
     technologies: ["Bash", "linux"],
+    git: "https://github.com/JoshGoold/File-organizer"
   },
   {
     title: "Weather App",
@@ -48,6 +50,8 @@ export const PROJECTS = [
     description:
       "A weather app that is capable of displaying weather from anywhere around the world, also displays global ocean temperatures",
     technologies: ["HTML", "CSS", "React", "Javascript"],
+    live: "https://weather-app-pearl-sigma-93.vercel.app",
+    git: "https://github.com/JoshGoold/weatherApp"
   },
   {
     title: "Snake game",
@@ -55,6 +59,8 @@ export const PROJECTS = [
     description:
       "I built the game snake using html5 canvas and javascript",
     technologies: ["HTML", "CSS", "Javascript"],
+    live: "https://snake-eight-green.vercel.app",
+    git: "https://github.com/JoshGoold/snake"
   },
   {
     title: "Data analysis",
@@ -62,5 +68,6 @@ export const PROJECTS = [
     description:
       "I found the accuracy of predictions of a diagnosis based off the closest n number of lines to that specific line using a distance formula",
     technologies: ["Java"],
+    git: "https://github.com/JoshGoold/Tumor-results-prediction-assignment"
   },
 ];

@@ -2,6 +2,7 @@ import React from 'react'
 import { PROJECTS } from '../Data'
 import { motion } from 'framer-motion'
 import { Tilt } from 'react-tilt'
+import { TbView360 } from "react-icons/tb";
 const Projects = () => {
 
     const defaultOptions = {
@@ -31,6 +32,15 @@ const Projects = () => {
                     transition={{duration: 1}} 
                     width={250} height={150} className='mb-6 rounded' src={project.image} alt={project.title} />
                     </Tilt>
+                    <motion.div
+                className='text-green-600'
+                whileInView={{opacity: 1, x: 0}}
+                initial={{opacity: 0, x: 100}}
+                transition={{duration: 1}}>
+                    {project.live && (<a className='text-sm px-2 mx-3 bg-neutral-800 bg-opacity-65 cursor-pointer rounded' href={project.live}>Live Preview</a>)}
+                    
+                    <a className='text-sm bg-neutral-800 px-2 cursor-pointer bg-opacity-65 rounded' href={project.git}>Github</a>
+                </motion.div>
                 </motion.div>
                 <motion.div
                 whileInView={{opacity: 1, x: 0}}
@@ -45,6 +55,7 @@ const Projects = () => {
                         </span>
                     ))}
                 </motion.div>
+                
             </div>
         ))}</div>
     </div>
