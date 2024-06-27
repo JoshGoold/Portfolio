@@ -35,6 +35,7 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, an A.I assistant, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "mySQL", "express", "open-ai"],
+    git: "https://github.com/JoshGoold/finalproject"
   },
   {
     title: "File Organizer",
