@@ -68,7 +68,7 @@ const defaultOptions = {
           <div className="flex mx-8 justify-center">
           <Tilt options={defaultOptions}>
             <motion.img
-            initial={{x:100, opacity: 0}} className="h-3/4 ml-20" animate={{x: 0, opacity: 1}} transition={{duration: 1, delay: 1.2}} src={profile} alt="profile" />
+            initial={{x:100, opacity: 0}}  animate={{x: 0, opacity: 1}} transition={{duration: 1, delay: 1.2}} src={profile} alt="profile" />
             </Tilt>
           </div>
         </div>
