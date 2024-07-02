@@ -53,7 +53,7 @@ const Contact = () => {
     <div className="border-b border-neutral-900 pb-4 my-8">
       <h1 className="my-20 text-center text-4xl">Contact <span className='text-neutral-500'>Me</span></h1>
       <div >
-        <form className="w-full h-full flex flex-wrap flex-col gap-4 items-center" ref={form} onSubmit={sendEmail}>
+        <form className="w-full h-full flex flex-wrap flex-col gap-4 justify-center items-center" ref={form} onSubmit={sendEmail}>
             <div className="flex flex-col gap-2 mb-8">
                 <label className="">Name</label>
                 <input className="py-2 bg-neutral-800 px-1 rounded font-thin text-2xl" type="text" placeholder="name" name="user_name" />
