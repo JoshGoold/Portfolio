@@ -4,6 +4,9 @@ import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
 import project5 from "./assets/bash.png";
+import project6 from "./assets/sudoku.png"
+import project7 from "./assets/idnews.png"
+import project8 from "./assets/nhl.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer I love making scalable and helpful applications and thrive in situations when a problem needs solving. My strengths lie in JavaScript, Java, and Python. However I have recently developed a love for Bash scripting and C. Im hardworking and passionate about the work I do which makes me reliable and dependable. I look forward to joining a team to help build helpful and reliable applications for the world!`;
 
@@ -71,4 +74,28 @@ export const PROJECTS = [
     technologies: ["Java"],
     git: "https://github.com/JoshGoold/Tumor-results-prediction-assignment"
   },
+  {
+    title: "Sudoku",
+    image: project6,
+    description: "I built an algorithm that builds sudoku boards with differing levels of difficulty",
+    technologies: ["Javascript", "React", "tailwindcss"],
+    git: "https://github.com/JoshGoold/Sudoku",
+    live: "https://sudoku-3cngg8ytx-joshs-projects-9174c388.vercel.app"
+  },
+  {
+    title: "Interdimensional News",
+    image: project7,
+    description: "I built a fake news site that generates silly and out of pocket news storys based off given story templates and randomized words (sort of like madlib)",
+    technologies: ["Javascript", "tailwindcss", "React"],
+    git: "https://github.com/JoshGoold/Interdimensional-News",
+    live: "https://interdimensional-news-joshs-projects-9174c388.vercel.app"
+  },
+  {
+    title: "NHL STATS",
+    image: project8,
+    description: "I used an API to capture current NHL standings, and player stats. In this app you can sift through all players on any team and see there key stats. NOTE: API may go down at anytime",
+    technologies: ["Hockey Stat API", "Javascript", "React", "tailwindcss"],
+    git:"https://github.com/JoshGoold/NHL-Stats-app",
+    live: "https://nhl-stats-cfm8rjmtr-joshs-projects-9174c388.vercel.app"
+  }
 ];
