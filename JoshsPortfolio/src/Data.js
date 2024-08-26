@@ -7,6 +7,7 @@ import project5 from "./assets/bash.png";
 import project6 from "./assets/sudoku.png"
 import project7 from "./assets/idnews.png"
 import project8 from "./assets/nhl.png"
+import project9 from "./assets/da.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer I love making scalable and helpful applications and thrive in situations when a problem needs solving. My strengths lie in JavaScript, Java, and Python. However I have recently developed a love for Bash scripting and C. Im hardworking and passionate about the work I do which makes me reliable and dependable. I look forward to joining a team to help build helpful and reliable applications for the world!`;
 
@@ -32,6 +33,14 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
+  {
+    title: "Digital Aditude",
+    image: project9,
+    description: "Industry standard website built for a digital marketing business, I was given a template with pre-made animations and I built the website they dreamed of. I was paid for this it is my first real work experience.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    git: "https://github.com/JoshGoold/Digital-Aditude",
+    live: "https://digital-aditude-826wdaj9e-joshs-projects-9174c388.vercel.app/"
+  },
   {
     title: "E-Commerce Website",
     image: project1,
