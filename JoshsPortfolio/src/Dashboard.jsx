@@ -81,7 +81,7 @@ const nav = useNavigate();
                 <h1 className="text-6xl mb-7 font-thin ">Joshua Goold</h1>
             </ul>
             <ul className="links">
-                <li><a className="text-1.2xl font-thin hover:font-normal cursor-pointer t">Contact</a></li>
+                <li><a className="text-1.2xl font-thin hover:font-normal cursor-pointer t" onClick={()=> nav('/contact')}>Contact</a></li>
                 <li><a className="text-2xl font-thin hover:font-normal cursor-pointer t" onClick={()=> nav('/portfolio')}>Portfolio</a></li>
                 <li><a className="text-1.2xl font-thin hover:font-normal cursor-pointer t" onClick={()=> nav('/resume')}>Resume</a></li>
             </ul>

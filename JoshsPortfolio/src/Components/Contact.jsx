@@ -2,11 +2,14 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
 
   const [hasBeenNotified, setHasBeenNotified] = useState(false)
+
+  const nav = useNavigate()
 
   // useEffect(()=>{
     
@@ -69,6 +72,8 @@ const Contact = () => {
           <input className="hover:bg-neutral-800 hover:scale-110 bg-neutral-900 py-2 px-2 rounded font-thin text-2xl" type="submit" value="Send" />
         </form>
       </div>
+      <div className="text-center">
+      <button className="bg-blue-500  text-white rounded-md p-2 mt-5" onClick={()=> nav('/')}>Back</button></div>
     </div>
   );
 };

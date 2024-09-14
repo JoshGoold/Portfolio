@@ -8,6 +8,8 @@ import project6 from "./assets/sudoku.png"
 import project7 from "./assets/idnews.png"
 import project8 from "./assets/nhl.png"
 import project9 from "./assets/da.png"
+import project10 from "./assets/socialmedia.png"
+import project11 from "./assets/stockplus.png"
 
 export const HERO_CONTENT = `I am a passionate full stack developer I love making scalable and helpful applications and thrive in situations when a problem needs solving. My strengths lie in JavaScript, Java, and Python. However I have recently developed a love for Bash scripting and C. Im hardworking and passionate about the work I do which makes me reliable and dependable. I look forward to joining a team to help build helpful and reliable applications for the world!`;
 
@@ -40,6 +42,21 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript"],
     git: "https://github.com/JoshGoold/Digital-Aditude",
     live: "https://digital-aditude-826wdaj9e-joshs-projects-9174c388.vercel.app/"
+  },
+  {
+    title: "Social Media",
+    image: project10,
+    description: "Created a social media which allows real time conversations, posting tweets, instagram posts, commenting, liking, following, user search, you can delete and edit posts, you can change your profile picture, and im currently working on a recommendation algorithm",
+    technologies: ["React", "JavaScript", "Tailwindcss", "Express", "MongoDB", "Express-session"],
+    git: "https://github.com/JoshGoold/social-media"
+  },
+  {
+    title: "Stock Plus",
+    image: project11,
+    description: "Created a stock market app which uses rapid api for its data, you have the ability to search any stock of your choosing and see its daily numbers, company profile, analyst ratings, trending news related to stock and more.",
+    technologies: ["React", "JavaScript", "Tailwindcss", "Rapid-Api"],
+    git: "https://github.com/JoshGoold/StockPlus",
+    live: "https://stock-plus2-mlwcc9l78-joshs-projects-9174c388.vercel.app/"
   },
   {
     title: "E-Commerce Website",
