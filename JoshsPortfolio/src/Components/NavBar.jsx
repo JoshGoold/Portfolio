@@ -10,7 +10,7 @@ const NavBar = () =>{
                 <a onClick={()=> nav("/")} className="mx-2 w-10 cursor-pointer t hover:scale-150">←</a>
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                <a href="www.linkedin.com/in/joshua-goold-689395301"><FaLinkedin/></a>
+                <a href="https://www.linkedin.com/in/joshua-goold-689395301"><FaLinkedin/></a>
                 <a href="https://github.com/JoshGoold"><FaGithub/></a>
             </div>
         </nav>
