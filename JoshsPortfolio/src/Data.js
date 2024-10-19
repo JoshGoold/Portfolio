@@ -64,7 +64,8 @@ export const PROJECTS = [
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, an A.I assistant, and user authentication.",
     technologies: ["HTML", "CSS", "React", "Node.js", "mySQL", "express", "open-ai"],
-    git: "https://github.com/JoshGoold/finalproject"
+    git: "https://github.com/JoshGoold/finalproject",
+    live: "https://finalproject-35qj72a3r-joshs-projects-9174c388.vercel.app/"
   },
   {
     title: "File Organizer",
