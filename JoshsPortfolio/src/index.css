@@ -76,3 +76,9 @@ section {
 .t{
     transition: 0.5s ease-in-out all;
 }
+
+@media (width < 800px) {
+    .s{
+        display: none;
+    }
+}

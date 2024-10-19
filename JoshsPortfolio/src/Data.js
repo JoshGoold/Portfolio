@@ -48,7 +48,7 @@ export const PROJECTS = [
     image: project10,
     description: "Created a social media which allows real time conversations, posting tweets, instagram posts, commenting, liking, following, user search, you can delete and edit posts, you can change your profile picture, and im currently working on a recommendation algorithm",
     technologies: ["React", "JavaScript", "Tailwindcss", "Express", "MongoDB", "Express-session"],
-    git: "https://github.com/JoshGoold/social-media"
+    git: "https://github.com/JoshGoold/group-media"
   },
   {
     title: "Stock Plus",
